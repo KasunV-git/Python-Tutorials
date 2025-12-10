@@ -83,9 +83,10 @@ if count.isdigit():
             x = x + 1
         if y == 0:
             print()
-            print(f"Total Bill Amount: {total}")
+            print(f"Total Bill Amount: ${total}")
 
     else:
         print("Invalid Input. Enter the Number of PickUps")
 else:
     print("Invalid Input. Enter the Number of PickUps")
+
